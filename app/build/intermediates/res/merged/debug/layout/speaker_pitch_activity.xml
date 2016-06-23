@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rgPitch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal" >
+
+        <RadioButton
+            android:id="@+id/rVeryLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="very low"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rVeryHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VeryHigh"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal" >
+
+        <RadioButton
+            android:id="@+id/rVerySlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="very Slow"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slow"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rSpeedNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rVeryFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VeryFast"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+</LinearLayout><!-- From: file:/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/res/layout/speaker_pitch_activity.xml -->

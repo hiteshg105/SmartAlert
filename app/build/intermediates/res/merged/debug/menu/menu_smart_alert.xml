@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/enableSmartAlert"
+        android:title="Enable Smart Alert" />
+    <item
+        android:id="@+id/generalToSilent"
+        android:title="General To Silent" />
+    <item
+        android:id="@+id/disableSmartAlert"
+        android:title="Disable Smart Alert" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/add"
+        android:title="Add"
+        app:showAsAction="always" />
+
+</menu>
+<!-- From: file:/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/res/menu/menu_smart_alert.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"/>
+ 
+</menu><!-- From: file:/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/res/menu/menu_speaker.xml -->

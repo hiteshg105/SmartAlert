@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBCD" >
+
+    <RelativeLayout
+        android:id="@+id/rlVoiceTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E5CCFF" >
+
+        <LinearLayout
+            android:id="@+id/layoutVoiceSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutVoice"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundlines"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/tvVoiceSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Set Voice Speed "
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bVoiceSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="70"
+                android:background="@drawable/button_pressed" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/background1"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/layoutVoiceSpeed"
+            android:background="#E5CCFF" />
+
+        <LinearLayout
+            android:id="@+id/layoutVoicePitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background1"
+            android:background="@drawable/backgroundlines"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/tvVoicePitch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Set Voice Pitch"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bVoicePitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="70"
+                android:background="@drawable/button_pressed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutVoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvVoiceTestHeading"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundlines"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/etVoiceTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutVoicePitch"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:background="@drawable/black_border_white_bg"
+                android:hint="Enter Text for voice check" />
+
+            <Button
+                android:id="@+id/bVoiceTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_pressed"
+                android:paddingBottom="-8dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="-8dp"
+                android:text="Test Voice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTextAfterSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTextBeforeSpeak"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundlines"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bTextAfterspeak "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="40"
+                android:background="@drawable/button_pressed"
+                android:minLines="2"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="Message after Caller name" >
+            </Button>
+
+            <TextView
+                android:id="@+id/tvTextAfterSpeak "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="60"
+                android:background="@drawable/black_border_white_bg"
+                android:gravity="center"
+                android:text="Text After Speak"
+                android:textColor="@android:color/black" >
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bDisableSpeaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_pressed"
+            android:text="Disable Speaker" >
+        </Button>
+
+        <LinearLayout
+            android:id="@+id/layoutTextBeforeSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/layoutVoicePitch"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundlines"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bTextBeforeSpeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="40"
+                android:background="@drawable/button_pressed"
+                android:minLines="2"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="Message before Caller name" />
+
+            <TextView
+                android:id="@+id/tvTextBeforeSpeak"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="60"
+                android:background="@drawable/black_border_white_bg"
+                android:gravity="center"
+                android:text="Text Before Speak"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/res/layout/speaker_fragment.xml -->

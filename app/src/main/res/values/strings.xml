@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wake Call</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_dialog_title">Add Contact</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+    <string-array name="array_contact">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="array_add_from">
+        <item>Contacts</item>
+        <item>Manually</item>
+    </string-array>
+    <string-array name="array_speaker_pitch">
+        <item>Very low </item>
+        <item>low </item>
+        <item>Normal </item>
+        <item>High </item>
+        <item>Very High </item>
+    </string-array>
+    <string-array name="array_speaker_speed">
+        <item>Very Slow </item>
+        <item>Slow </item>
+        <item>Normal </item>
+        <item>Fast </item>
+        <item>Very Fast </item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="list_item_odd_position">#f7f7f7</color>  
+   <color name="list_item_even_position">@android:color/white</color>
+   <color name="red">#992f2f</color>
+   <color name="gray">#FFDDDDDD</color>
+   <color name="colorPrimary">#D2753C</color>
+   <color name="colorPrimaryDark">#B6602B</color>
+   <color name="textColorPrimary">#FFFFFF</color>
+   <color name="windowBackground">#FFFFFF</color>
+   <color name="navigationBarColor">#9D4C1A</color>
+   <color name="colorAccent">#AD7A5B</color>
+    <color name="tab_background_selected">#8D4417</color>
+    <color name="tab_background_unselected">#9D4C1A</color>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF5" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Add Contact from.."
+            android:textColor="#3BB9FF"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignBottom="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="6dp"
+            android:background="#3BB9FF" />
+
+        <ListView
+            android:id="@+id/lvAddDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/line" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/res/layout/dialog_add.xml -->
