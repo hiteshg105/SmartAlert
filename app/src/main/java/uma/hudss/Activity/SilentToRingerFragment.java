@@ -1,4 +1,4 @@
-package uma.hudss.NewActivity;
+package uma.hudss.Activity;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -20,8 +20,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import uma.hudss.Activity.AboutSmartAlert;
-import uma.hudss.Activity.SmartAlertDialog;
 import uma.hudss.R;
 import uma.hudss.SmartAlert.DatabaseListener;
 import uma.hudss.SmartAlert.SmartAlert;

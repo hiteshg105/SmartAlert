@@ -13,7 +13,7 @@ import android.util.Log;
 
 import uma.hudss.Activity.NormalizePhoneUtilities;
 import uma.hudss.Model.ContactModel;
-import uma.hudss.NewActivity.HomeActivity;
+import uma.hudss.Activity.HomeActivity;
 import uma.hudss.R;
 import uma.hudss.SmartAlert.GlobalConstants;
 import uma.hudss.SmartAlert.SmartAlert;

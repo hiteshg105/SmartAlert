@@ -1,4 +1,4 @@
-package uma.hudss.NewActivity;
+package uma.hudss.Activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new uma.hudss.NewActivity.RingerToSilentFragment(), "  General To Silent");
+        adapter.addFragment(new RingerToSilentFragment(), "  General To Silent");
         adapter.addFragment(new SilentToRingerFragment(), "  Silent To General");
 //        adapter.addFragment(new ThreeFragment(), "THREE");
         viewPager.setAdapter(adapter);
