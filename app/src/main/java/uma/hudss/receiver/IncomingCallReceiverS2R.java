@@ -70,7 +70,7 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 			// For Accepting the Call Issue //Phone Number is null in that case
 			//call off hook -reason -issue when call picked at end it resets the volume to 7 again
 			if (SmartAlert.getInstance().getPreferences()
-					.getIsLastCallIncoming()||SmartAlert.getInstance().getPreferences().isLastCallOffHook())
+					.getIsLastCallIncomingS2R()||SmartAlert.getInstance().getPreferences().isLastCallOffHook())
 				contactExists = true;
 			if (contact != null
 					&& SmartAlert.getInstance().getPreferences()
@@ -87,12 +87,13 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 								.getStreamMaxVolume(AudioManager.STREAM_RING);
 
 						audio.setStreamVolume(AudioManager.STREAM_RING, 7, 0);
+						int a =audio.getStreamVolume(AudioManager.STREAM_RING);
 						if(GlobalConstants.DEBUGGABLE)
 						Log.d("TAG",
 								"CALL_STATE_RINGING  Stream ring volume "
 										+ audio.getStreamVolume(AudioManager.STREAM_RING));
 						SmartAlert.getInstance().getPreferences()
-								.setIsLastCallIncoming(true);
+								.setIsLastCallIncomingS2R(true);
 						sendNotification(incomingNumber);
 					}
 
@@ -102,7 +103,7 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 			case TelephonyManager.CALL_STATE_OFFHOOK:
 				if (contactExists) {
 					if (SmartAlert.getInstance().getPreferences()
-							.getIsLastCallIncoming()) {
+							.getIsLastCallIncomingS2R()) {
 
 						try {
 							Thread.sleep(2000);
@@ -112,7 +113,7 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 						}
 						audio.setStreamVolume(AudioManager.STREAM_RING, 0, 0);
 						SmartAlert.getInstance().getPreferences()
-								.setIsLastCallIncoming(false);
+								.setIsLastCallIncomingS2R(false);
 						SmartAlert.getInstance().getPreferences().setisLastCallOffHook(true);
 						if(GlobalConstants.DEBUGGABLE)
 						Log.d("TAG", "CALL_STATE_OFFHOOK  previous Volume "
@@ -129,9 +130,9 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 			case TelephonyManager.CALL_STATE_IDLE:
 				if (contactExists) {
 					boolean text = SmartAlert.getInstance().getPreferences()
-							.getIsLastCallIncoming();
+							.getIsLastCallIncomingS2R();
 					if (SmartAlert.getInstance().getPreferences()
-							.getIsLastCallIncoming()||SmartAlert.getInstance().getPreferences().isLastCallOffHook()) {
+							.getIsLastCallIncomingS2R()||SmartAlert.getInstance().getPreferences().isLastCallOffHook()) {
 
 						try {
 							Thread.sleep(2000);
@@ -140,12 +141,13 @@ public class IncomingCallReceiverS2R extends BroadcastReceiver {
 							e.printStackTrace();
 						}
 						audio.setStreamVolume(AudioManager.STREAM_RING, 0, 0);
+
 						if(GlobalConstants.DEBUGGABLE)
 						Log.d("TAG", "CALL_STATE_IDLE  previous Volume "
 								+ SmartAlert.getInstance().getPreferences()
 										.getPreviousVolume());
 						SmartAlert.getInstance().getPreferences()
-								.setIsLastCallIncoming(false);
+								.setIsLastCallIncomingS2R(false);
 						SmartAlert.getInstance().getPreferences().setisLastCallOffHook(false);
 						if(GlobalConstants.DEBUGGABLE)
 						Log.d("TAG",

@@ -36,16 +36,24 @@ public class AppPreferences {
         return settings.getLong("countrycode", Long.parseLong("91"));
     }
 
-    public void setIsLastCallIncoming(boolean islastCallIncoming) {
-        editor.putBoolean("islastcallincoming", islastCallIncoming);
+    public void setIsLastCallIncomingS2R(boolean islastCallIncoming) {
+        editor.putBoolean("islastcallincomings2r", islastCallIncoming);
         editor.commit();
 
     }
 
-    public boolean getIsLastCallIncoming() {
-        return settings.getBoolean("islastcallincoming", false);
+    public void setIsLastCallIncomingR2S(boolean islastCallIncoming) {
+        editor.putBoolean("islastcallincomingr2s", islastCallIncoming);
+        editor.commit();
+
+    }
+    public boolean getIsLastCallIncomingR2S() {
+        return settings.getBoolean("islastcallincomingr2s", false);
     }
 
+    public boolean getIsLastCallIncomingS2R() {
+        return settings.getBoolean("islastcallincomings2r", false);
+    }
     public void setPreviousVolume(int streamVolume) {
         // TODO Auto-generated method stub
         editor.putInt("previousvolume", streamVolume);

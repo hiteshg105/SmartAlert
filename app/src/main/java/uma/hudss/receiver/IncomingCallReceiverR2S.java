@@ -64,7 +64,7 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
             ContactModel contact = ContactsDatabaseWorker.getInstance()
                     .getContact(context, phonenumber, AppPreferences.RING_TO_SILENT);
             if (SmartAlert.getInstance().getPreferences()
-                    .getIsLastCallIncoming() || SmartAlert.getInstance().getPreferences().isLastCallOffHook())
+                    .getIsLastCallIncomingR2S() || SmartAlert.getInstance().getPreferences().isLastCallOffHook())
                 contactExists = true;
             if (contact != null
                     && SmartAlert.getInstance().getPreferences()
@@ -89,8 +89,9 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
                                 Log.d("TAG",
                                         "CALL_STATE_RINGING  Stream ring volume "
                                                 + audio.getStreamVolume(AudioManager.STREAM_RING));
+                            int b=audio.getStreamVolume(AudioManager.STREAM_RING);
                             SmartAlert.getInstance().getPreferences()
-                                    .setIsLastCallIncoming(true);
+                                    .setIsLastCallIncomingR2S(true);
                             sendNotification(incomingNumber);
                         }
 
@@ -100,7 +101,7 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
                 case TelephonyManager.CALL_STATE_OFFHOOK:
                     if (contactExists) {
                         if (SmartAlert.getInstance().getPreferences()
-                                .getIsLastCallIncoming()) {
+                                .getIsLastCallIncomingR2S()) {
 
                             try {
                                 Thread.sleep(2000);
@@ -110,7 +111,7 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
                             }
                             audio.setStreamVolume(AudioManager.STREAM_RING, SmartAlert.getInstance().getPreferences().getPreviousVolume(), 0);
                             SmartAlert.getInstance().getPreferences()
-                                    .setIsLastCallIncoming(false);
+                                    .setIsLastCallIncomingR2S(false);
                             SmartAlert.getInstance().getPreferences().setisLastCallOffHook(true);
                             if (GlobalConstants.DEBUGGABLE)
                                 Log.d("TAG", "CALL_STATE_OFFHOOK  previous Volume "
@@ -127,9 +128,9 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
                 case TelephonyManager.CALL_STATE_IDLE:
                     if (contactExists) {
                         boolean text = SmartAlert.getInstance().getPreferences()
-                                .getIsLastCallIncoming();
+                                .getIsLastCallIncomingR2S();
                         if (SmartAlert.getInstance().getPreferences()
-                                .getIsLastCallIncoming() || SmartAlert.getInstance().getPreferences().isLastCallOffHook()) {
+                                .getIsLastCallIncomingR2S() || SmartAlert.getInstance().getPreferences().isLastCallOffHook()) {
 
                             try {
                                 Thread.sleep(2000);
@@ -143,7 +144,7 @@ public class IncomingCallReceiverR2S extends BroadcastReceiver {
                                         + SmartAlert.getInstance().getPreferences()
                                         .getPreviousVolume());
                             SmartAlert.getInstance().getPreferences()
-                                    .setIsLastCallIncoming(false);
+                                    .setIsLastCallIncomingR2S(false);
                             SmartAlert.getInstance().getPreferences().setisLastCallOffHook(false);
                             if (GlobalConstants.DEBUGGABLE)
                                 Log.d("TAG",

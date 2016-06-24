@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/hiteshgupta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-f418be7124ba68dc8fdf59105c4e6d800eb1963d.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-1180eab4c74a1023d2125196a2ca35a5bbbe8d73.jar" />
     </item>
     <item
-        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jar="/Users/hiteshgupta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-cd075679a6465595342ca55179655354860d04b6.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dd418ca7ec7899a916b9622cdb30523953e20083.jar" />
     </item>
     <item
-        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-cb98e5f6795eefea29ac2baefe5d0e650c4a5ed0.jar" />
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-9da3f063d42661099f46e6b099fa36f365ba4204.jar" />
     </item>
     <item
-        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-47205edc9e58e9d72a25272aa90760be2da07f31.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-c3e0078b8498c3924f96885a7bff4827d599f741.jar" />
     </item>
     <item
-        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/classes-b7ed5e8a68ef81e250a770514356cf9507903a5f.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ec00bca336527b5216f4f9fffec9522c0287c8b7.jar" />
     </item>
 
 </items>

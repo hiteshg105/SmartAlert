@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="22" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" >
     </uses-permission>
@@ -50,6 +50,12 @@
             </intent-filter>
         </receiver>
         <receiver android:name="uma.hudss.receiver.IncomingCallReceiverS2R" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="uma.hudss.receiver.IncomingCallReceiverR2S" >
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" >
                 </action>

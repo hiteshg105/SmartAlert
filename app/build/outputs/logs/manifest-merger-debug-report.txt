@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:3:5-24
 		INJECTED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml
@@ -15,12 +15,12 @@ ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/Andr
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml
@@ -38,13 +38,13 @@ ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/Andr
 	android:name
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:13:22-69
 application
-ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:16:5-61:19
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:16:5-66:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:20:9-41
 	android:allowBackup
@@ -107,7 +107,11 @@ receiver#uma.hudss.receiver.IncomingCallReceiverS2R
 ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:52:9-57:20
 	android:name
 		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:52:19-67
-service#uma.hudss.receiver.TTS
-ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:59:9-60:19
+receiver#uma.hudss.receiver.IncomingCallReceiverR2S
+ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:58:9-63:20
 	android:name
-		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:59:18-55
+		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:58:19-67
+service#uma.hudss.receiver.TTS
+ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:64:9-65:19
+	android:name
+		ADDED from /Users/hiteshgupta/AndroidStudioProjects/SmartAlert/app/src/main/AndroidManifest.xml:64:18-55

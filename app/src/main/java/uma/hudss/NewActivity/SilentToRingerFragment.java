@@ -319,7 +319,7 @@ public class SilentToRingerFragment extends Fragment implements LoaderManager.Lo
         customAdapter.getItem(info.position);
         switch (menuItemIndex) {
             case 0:
-                ContactsDatabaseWorker.deleteContact(getContext(), phoneNumber, AppPreferences.SILENT_TO_RING);
+                ContactsDatabaseWorker.deleteContact(getActivity(), phoneNumber, AppPreferences.SILENT_TO_RING);
                 customAdapter.notifyDataSetChanged();
                 refresh();
 
